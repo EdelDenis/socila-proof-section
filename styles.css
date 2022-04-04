@@ -20,6 +20,7 @@
     font-family: "Spartan", sans-serif;
     font-weight:600;
     padding-bottom: 50px;
+    line-height:20px;
 }
 
 .stars{
@@ -43,8 +44,8 @@
     margin: auto;
     max-height: min-content;
     border-radius: 7px;
-    padding-top:12px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 33px;
     margin-top:36px;
 }
 
@@ -81,4 +82,48 @@
 }
 .p_name{
     margin: auto auto auto 0;
+}
+
+@media(min-width:1000px){
+    .p_number{
+       margin:0;
+       text-align: left;
+       width:380px;
+       margin-top:150px;
+       margin-left:150px;
+    }
+    .main_info{
+        margin:0;
+        text-align:left;
+        width:410px;
+        margin-left:150px;
+    }
+    .stars_p{
+        display: flex;
+        margin:auto;
+        padding-left:115px;
+        gap:650px;
+    }
+    .stars_section{
+        margin-top:150px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        gap: 75px;
+        margin-top:100px;
+    }
+    .card{
+      margin:0;
+      padding-left:30px;
+      padding-right:30px;
+    }
+    .card_p{
+        margin:0 20px 0 20px;
+    }
+    .avatar{
+        margin:0;
+    }
+    
 }
